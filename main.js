@@ -1,8 +1,9 @@
 
 
-$('.close').click(
+$('a.close').click(
   function () {
+    // $('a .close').removeClass('close');
     $('.hamburger-menu').addClass('active');
-    $('.hamburger-menu').cssRemove('display: none');
+    // $('.hamburger-menu').removeAttr('display: none;');
   }
 );
