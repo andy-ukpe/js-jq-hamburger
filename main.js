@@ -1,9 +1,15 @@
 
 
-$('a.close').click(
+$('.header-right > a').click(
   function () {
-    // $('a .close').removeClass('close');
     $('.hamburger-menu').addClass('active');
-    // $('.hamburger-menu').removeAttr('display: none;');
+    // $('.hamburger-menu').fadeIn(100);
+  }
+);
+
+$('.close').click(
+  function () {
+    $('.hamburger-menu').removeClass('active');
+    // $('.hamburger-menu').fadeOut(100);
   }
 );
